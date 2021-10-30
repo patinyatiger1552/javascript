@@ -53,3 +53,16 @@ const {productName1,price1,stock1} = product1
 console.log(productName1)
 console.log(price1)
 console.log(stock1)
+
+// step 7 เขียนชื่อตัวแปรแบบย่อก็ได้ (แต่ไม่แนะนำให้เขียน)
+const data = {
+  programName: "Visual Studio",
+  ram: "16GB",
+  ssd: "512"
+}
+
+const {programName:p, ram:r, ssd:s} = data
+
+console.log(p)
+console.log(r)
+console.log(s)
